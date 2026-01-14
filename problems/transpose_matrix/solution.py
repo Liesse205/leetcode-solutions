@@ -1,12 +1,10 @@
 class Solution:
     def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
-        rows = len(matrix)
-        cols = len(matrix[0])
-        transpose = [[0]* rows for _ in range(cols)]
-        for row in range(rows):
-            for col in range(cols):
-                transpose[col][row] = matrix[row][col]
-        return(transpose)
-
-
+        row = len(matrix)
+        col = len(matrix[0])
+        transposed = [[0]*row for _ in range(col)]
+        for i in range(row):
+            for j in range(col):
+                transposed[j][i] = matrix[i][j] 
+        return(transposed) 
         
