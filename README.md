@@ -1,4 +1,4 @@
-# LeetCode Solutions 🚀
+# LeetCode Solutions 
 
 This repository contains my accepted LeetCode solutions,
 automatically synced to GitHub using GitHub Actions.
